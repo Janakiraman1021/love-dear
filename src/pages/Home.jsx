@@ -13,20 +13,12 @@ const Home = ({ className = '' }) => (
                             Afraid To <font className="text-danger">Propose</font> Someone?
                         </h1>
                         <p className="hero_text-description">
-                            don’t worry I am here to help you. enter your valentines name and generate a propose link.
+                            don’t worry I am here to help you. enter your valentines name and
+                            generate a propose link.
                         </p>
 
                         <ProposeForm className="hero_text-form mt-4 mt-md-5" />
-                        <p className="hero_credit">
-                            developed by{' '}
-                            <a
-                                href="https://tonmoydeb.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                @tonmoydeb
-                            </a>
-                        </p>
+                        <p className="hero_credit">developed by @JR</p>
                     </div>
                 </Col>
                 <Col md={5} className="hero_media-wrapper">
